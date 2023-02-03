@@ -12,6 +12,8 @@ getgenv().Get =
         end
     }
 )
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ArdaTMain/V2/main/LoadingV2'))()
+wait(8.5)
 for i, v in pairs(Games) do
     if i == game.PlaceId then
         loadstring(game:HttpGet(v))()
