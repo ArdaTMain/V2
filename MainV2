@@ -12,6 +12,7 @@ getgenv().Get =
         end
     }
 )
+wait(1)
 loadstring(game:HttpGet('https://raw.githubusercontent.com/ArdaTMain/V2/main/LoadingV2'))()
 wait(8.5)
 for i, v in pairs(Games) do
